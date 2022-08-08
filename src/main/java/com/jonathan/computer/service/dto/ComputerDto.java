@@ -2,9 +2,11 @@ package com.jonathan.computer.service.dto;
 
 import com.jonathan.computer.entity.enums.Type;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

@@ -2,13 +2,15 @@ package com.jonathan.computer.service.dto;
 
 import com.jonathan.computer.entity.enums.Type;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ComputerRequest {
+public class ComputerRequestDto {
 
     private String brand;
     private String model;
